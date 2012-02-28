@@ -3,7 +3,7 @@
 class Home_Controller extends Controller {
 	public function index(){
 		$view_app = new View('home_content');
-		$view_app->test = 'arakiel';
+		$view_app->test = 'Arakiel';
 		$view_app->render(true);
 		
 	}
